@@ -1,0 +1,154 @@
+body {
+  margin: 0;
+  padding: 40px 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+  color: #fff;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+form {
+  background-color: #1e293b;
+  padding: 30px 40px;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+  max-width: 900px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+}
+
+h2 {
+  grid-column: span 2;
+  text-align: center;
+  color: #00ff99;
+  margin-bottom: 10px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: 500;
+  color: #f0f0f0;
+}
+
+input,
+select {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  background-color: #334155;
+  color: white;
+  font-size: 14px;
+}
+
+input::placeholder {
+  color: #a1a1a1;
+}
+
+span {
+  font-size: 12px;
+  color: #f87171;
+  display: block;
+  margin-top: 2px;
+}
+
+button[type="submit"] {
+  grid-column: span 2;
+  padding: 12px;
+  font-size: 16px;
+  background-color: #00ff99;
+  color: #1e1e1e;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+  background-color: #00cc7a;
+}
+
+.checkbox-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.full-width {
+  grid-column: span 2;
+}
+
+.login-link {
+  grid-column: span 2;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.login-link a {
+  color: #38bdf8;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.login-link a:hover {
+  text-decoration: underline;
+}
+
+/* Logo integration for E-SHOP */
+.logo {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1px;
+  grid-column: span 2;
+}
+
+.logo img {
+  height: 60px;
+}
+
+.success-container {
+  max-width: 600px;
+  margin: 30px auto;
+  padding: 20px;
+  color: white;
+  text-align: center;
+  background-color: #1e293b; /* dark blue-gray */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.success-data {
+  background-color: #334155; /* darker background for data */
+  padding: 15px;
+  border-radius: 8px;
+  text-align: left;
+  overflow-x: auto;
+  margin: 20px 0;
+  font-size: 14px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+.go-back-button {
+  background-color: #00ff99;
+  color: #1e1e1e;
+  font-weight: bold;
+  padding: 12px 25px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.go-back-button:hover {
+  background-color: #00cc7a;
+}
